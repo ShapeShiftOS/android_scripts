@@ -21,9 +21,9 @@ end=$'\e[0m'
 ROM_PATH=$(pwd)
 
 # ROM-specific constants
-BRANCH=ten
-REMOTE_NAME=legacy
-REPO_XML_PATH="snippets/legacy.xml"
+BRANCH=android_11
+REMOTE_NAME=ssos
+REPO_XML_PATH="extras/ssos.xml"
 
 # Blacklisted repos - don't try to merge
 blacklist="manifest \
